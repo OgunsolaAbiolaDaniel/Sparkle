@@ -1,0 +1,21 @@
+.menubar{
+    background-color: #f8fafc;
+    color: #27272a;
+    display: block;
+    display: flex;
+    position: absolute;
+    flex-direction: column;
+    top:0;
+    width: 100%;
+    padding-top:10px ;
+    gap:20px;
+    padding-right: 2px;
+    padding-bottom: 10px;
+    justify-content: center;
+    align-items: center;
+}
+.closeBtn{
+    align-items: self-end;
+    display: flex;
+    justify-content: se;
+}
