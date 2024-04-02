@@ -5,7 +5,7 @@ import { FaBars } from "react-icons/fa";
 import { TiShoppingCart } from "react-icons/ti";
 import classes from './header.module.css'
 import Image from 'next/image'
-import logo from './header-images/sparkles.png';
+import logo from "@/public/assets/images/sparkles.png";
 import Menubar from '../Menubar/Menubar';
 
 function Header() {
