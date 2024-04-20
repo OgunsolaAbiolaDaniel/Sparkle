@@ -1,0 +1,86 @@
+.sect{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    line-height: 1.5;
+    margin:10px 0px;
+}
+.inputbox{
+background-color: #fff;
+color: #212529;
+padding: 10px;
+	font-size: 1rem; /* 16px */
+line-height: 1.25rem; /* 20px */
+font-weight: 500;
+border-style: solid;
+border-width: 1px;
+border-color: #adb5bd;
+}
+.inputbox::placeholder{
+color:#adb5bd ;
+font-size: 0.875rem; /* 14px */
+line-height: 1.25rem; /* 20px */
+font-weight: 600;
+}
+.labels{
+font-size: 1rem; /* 16px */
+line-height: 1.5rem; /* 24px */
+font-weight: 600;
+color: #212529;
+}
+.forgotpasstxt{
+    color:#adb5bd;
+    	font-size: 0.75rem; /* 12px */
+line-height: 1rem; /* 16px */
+}
+.check{
+    display: flex;
+    align-items: start;
+    justify-content: start;
+    gap: 15px;
+}
+.check div{
+   font-size: 0.875rem; /* 14px */
+line-height: 1.25rem; /* 20px */ 
+width: fit-content;
+color:#6b7280 ;
+font-weight: 500;
+}
+.checkbox{
+color: #212529;
+font-size: 0.875rem; /* 14px */
+line-height: 1.25rem; /* 20px */ 
+margin-top: 3px;
+}
+.signinbtn{
+    background: none;
+    border-style: solid;
+    border-width: 1px;
+    border-color: #212529;
+    padding: 10px;
+    font-size: 0.75rem; /* 12px */
+    line-height: 1.2rem; /* 16px */ 
+    font-weight: 700;
+   letter-spacing: 0.3em;
+    color: #212529;
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    justify-content: center;
+}
+.divs{
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+.registericon{
+  font-size: 0.75rem; /* 12px */
+    line-height: 1.2rem; /* 16px */ 
+    font-weight: 700;  
+}
+.errorfield{
+      color:#adb5bd;
+    	font-size: 0.75rem; /* 12px */
+line-height: 1rem; /* 16px */
+   display: none;
+}

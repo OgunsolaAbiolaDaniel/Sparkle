@@ -1,0 +1,21 @@
+.sect{
+    display: flex;
+    flex-direction: column;
+    
+}
+.header{
+    display: flex;
+    justify-content: end;
+}
+.cancelbtn{
+    background: none;
+    border: none;
+    position: absolute;
+    top: 38px;
+    right: 32px;
+}
+.closebtnicon{
+font-size: 1.875rem; /* 30px */
+line-height: 2.25rem; /* 36px */
+color: #a1a1aa;
+}

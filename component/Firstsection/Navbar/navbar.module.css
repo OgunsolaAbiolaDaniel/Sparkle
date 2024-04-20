@@ -1,0 +1,43 @@
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    color: #1f2937;
+    
+}
+.brandlogo{
+    font-weight: 600;
+    font-size: 16px;
+    display: flex;
+    align-items: center;
+}
+.homelink {
+ color: #1f2937 ;
+ text-decoration: none;
+}
+.middlenav{
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+    align-items: center;
+}
+.menubutton{
+   background: none;
+    border-style: none;
+align-items: center;
+justify-content: center;
+}
+.menubuttonicon{
+font-size: 1.5rem; /* 24px */
+ font-weight:100;
+line-height: 2rem; /* 32px */
+}
+.navbtn{
+    background: none;
+    border-style: none;
+    display: flex;
+align-items: center;
+font-size: 1.5rem; /* 24px */
+line-height: 2rem; /* 32px */
+justify-content: center;
+}
