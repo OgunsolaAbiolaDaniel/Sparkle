@@ -26,19 +26,108 @@ function Menubar() {
         </li>
 
         <li>
-          <Menulistitem text="Shop"></Menulistitem>
+          <Menulistitem text="Shop">
+            <ul className={classes.menuunorderedsublist}>
+              <li>
+                <Menusublistitem text="Home1 -Fashion" news={false} />
+              </li>
+              <li>
+                <Menusublistitem text="Home2 -Fashion" news={false} />
+              </li>
+              <li>
+                <Menusublistitem text="Home3 -Design" news={true} />
+              </li>
+              <li>
+                <Menusublistitem text="Home4 -Design" news={true} />
+              </li>
+            </ul>
+          </Menulistitem>
         </li>
         <li>
-          <Menulistitem text="Product Cards"></Menulistitem>
+          <Menulistitem text="Product Cards">
+            <ul className={classes.menuunorderedsublist}>
+              <li>
+                <Menusublistitem text="Home1 -Fashion" news={false} />
+              </li>
+              <li>
+                <Menusublistitem text="Home2 -Fashion" news={false} />
+              </li>
+              <li>
+                <Menusublistitem text="Home3 -Design" news={true} />
+              </li>
+              <li>
+                <Menusublistitem text="Home4 -Design" news={true} />
+              </li>
+            </ul>
+            <ul className={classes.menuunorderedsublist}>
+              <li>
+                <Menusublistitem text="Home1 -Fashion" news={false} />
+              </li>
+              <li>
+                <Menusublistitem text="Home2 -Fashion" news={false} />
+              </li>
+              <li>
+                <Menusublistitem text="Home3 -Design" news={true} />
+              </li>
+              <li>
+                <Menusublistitem text="Home4 -Design" news={true} />
+              </li>
+            </ul>
+          </Menulistitem>
         </li>
         <li>
-          <Menulistitem text="Icons"></Menulistitem>
+          <Menulistitem text="Icons">
+            <ul className={classes.menuunorderedsublist}>
+              <li>
+                <Menusublistitem text="Home1 -Fashion" news={false} />
+              </li>
+              <li>
+                <Menusublistitem text="Home2 -Fashion" news={false} />
+              </li>
+              <li>
+                <Menusublistitem text="Home3 -Design" news={true} />
+              </li>
+              <li>
+                <Menusublistitem text="Home4 -Design" news={true} />
+              </li>
+            </ul>
+          </Menulistitem>
         </li>
         <li>
-          <Menulistitem text="Docs"></Menulistitem>
+          <Menulistitem text="Docs">
+            <ul className={classes.menuunorderedsublist}>
+              <li>
+                <Menusublistitem text="Home1 -Fashion" news={false} />
+              </li>
+              <li>
+                <Menusublistitem text="Home2 -Fashion" news={false} />
+              </li>
+              <li>
+                <Menusublistitem text="Home3 -Design" news={true} />
+              </li>
+              <li>
+                <Menusublistitem text="Home4 -Design" news={true} />
+              </li>
+            </ul>
+          </Menulistitem>
         </li>
         <li>
-          <Menulistitem text="About us"></Menulistitem>
+          <Menulistitem text="About us">
+            <ul className={classes.menuunorderedsublist}>
+              <li>
+                <Menusublistitem text="Home1 -Fashion" news={false} />
+              </li>
+              <li>
+                <Menusublistitem text="Home2 -Fashion" news={false} />
+              </li>
+              <li>
+                <Menusublistitem text="Home3 -Design" news={true} />
+              </li>
+              <li>
+                <Menusublistitem text="Home4 -Design" news={true} />
+              </li>
+            </ul>
+          </Menulistitem>
         </li>
       </ul>
 
