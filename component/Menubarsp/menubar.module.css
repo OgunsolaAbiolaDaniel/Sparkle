@@ -1,0 +1,111 @@
+  .menubar{ 
+    background-color: #fffbeb;
+    color: #27272a;
+    gap:15px;
+    padding-right: 2px;
+    padding-bottom: 10px;
+    justify-content: start;
+    color: #27272a;
+    display: none;
+}  
+
+.cbtn{
+ border: none;
+    background-color: transparent;
+}
+.closeIcon{
+   font-size: 1.5rem; /* 24px */
+line-height: 2rem; /* 32px */
+font-weight: 600;
+}
+.roll{
+    justify-self: center;
+}
+.roll ul{
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content:space-between;
+    padding: 10px 10px;
+    gap: 10px;
+}
+.roll ul li button{
+    border: none;
+    padding:10px 12px;
+    background-color:  transparent;
+    font-size: 1rem; /* 16px */
+line-height: 1.5rem; /* 24px */
+}
+.fulllogo{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    gap:6px;
+}
+.logo {
+  width: 30px;
+  height: 30px;
+}
+ .cpn{
+    display: flex;
+    font-size: 1rem; /* 16px */
+line-height: 1.5rem; /* 24px */
+}
+.cartBtn{
+     display: flex;
+    gap: 3px;
+    justify-content: center;
+    align-items: center;
+}
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding:10px 5px;
+}
+.cartIcon{
+    font-size: 1rem; /* 16px */
+line-height: 1.5rem; /* 24px */
+}
+.cartdiv{
+    padding-top: 5px;
+}
+
+
+@media screen and (max-width:762px) {
+  .menubar{   
+    display: block;
+    display: flex;
+    position: absolute;
+    flex-direction: column;
+    top:0;
+    width: 100%;
+    height: 100vh;
+    padding-top:10px ;
+}  
+}
+@media screen and (min-width:767px) and (max-width:780px) {
+      .menubar{   
+    display: block;
+    display: flex;
+    position: absolute;
+    flex-direction: column;
+    top:0;
+    width: 30%;
+    right: 1px;
+    height: 100vh;
+    padding-top:10px;
+    box-shadow: inset 0 2px 4px 0 rgb(0 0 0 / 0.05);
+}  
+.header{
+    border-style:none ;
+    border-bottom: solid 1px #27272a;
+}
+}
+@media screen and(min-width:782px) {
+     .menubar{   
+    display: none;
+}  
+}
+

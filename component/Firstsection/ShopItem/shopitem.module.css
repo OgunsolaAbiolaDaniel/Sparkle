@@ -1,0 +1,51 @@
+.card{
+    display: flex;
+    gap: 20px;
+    width: 100%;
+}
+.secsect{
+display: flex;
+width: 65%;
+flex-direction: column;
+gap: 3px;
+}
+.quantity{
+    color: gray;
+     font-size: 14px;
+}
+.price{
+  font-size: 0.875rem; /* 14px */
+line-height: 1.25rem; /* 20px */
+    font-weight: 700;
+}
+.producttitle{
+  font-size: 1rem; /* 16px */
+line-height: 1.5rem; /* 24px */
+    font-weight: 700;
+    width: 100%;
+}
+.productimage{
+ width: 35%;
+
+ display: flex;
+ align-items: center;
+}
+.itemimage{
+max-width: 100%;
+    height: auto;
+     object-fit: cover;
+     border-radius: 10px;
+}
+.deletebtn{
+    position: relative;
+    width: 30px;
+    height: auto;
+    left: 90px;
+    top: 25px;
+    background: none;
+    border: none;
+}
+.deletebtnicon{
+font-size: 1.125rem; /* 18px */
+line-height: 1.75rem; /* 28px */
+}

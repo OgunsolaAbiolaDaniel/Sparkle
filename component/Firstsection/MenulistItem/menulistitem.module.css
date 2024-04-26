@@ -1,0 +1,38 @@
+.listele{
+  display: flex;
+width: 100%;
+justify-content: space-between;
+padding: 2px 5px;
+}
+
+.listitem{
+    display: flex;
+    justify-content: space-between;
+}
+
+.dropdownbtn{
+    background: none;
+    border: none;
+}
+.dropdownbtnicon{
+    font-size: 16px;
+}
+.sublist{
+    list-style-type: none;
+}
+
+.subtext{
+    font-size: 14px;
+    color: gray;
+    align-items: center;
+    display: flex;
+    gap:5px;
+}
+.newtag{
+    color: #877f64;
+    background-color: #bcac76 ;
+    padding: 2px;
+    font-size: 10px;
+    border-radius:1px 2px;
+    width: fit-content;
+}

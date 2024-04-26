@@ -1,0 +1,57 @@
+.menubar{
+    width: 100%;
+    height: auto;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+}
+.listhead{
+    list-style: none;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+.unorderedlist{
+    list-style: none;
+    padding: 15px 15px; 
+    gap: 10px;
+    display: flex;
+    flex-direction: column;
+}
+.searchbar{
+    display: flex;
+   margin: 5px 0;
+    justify-content: center;
+    width: 100%;
+}
+.inputfield{
+    border: none;
+    padding: 10px;
+    width:80%;
+    font-size: 14px;
+    outline: none;
+    border-bottom: 1px solid;
+}
+.searchicon{
+   font-size: 20px; 
+}
+.searchbtn{
+    background: none;
+    border: none;
+    width: 10%;
+}
+.inputfield::placeholder{
+    font-size: 16px;
+}
+
+.menuunorderedsublist{
+    display: flex;
+    padding: 5px 10px;
+    flex-direction: column;
+    gap: 5px;
+}
+.menuunorderedsublist > li{
+list-style: none;
+padding: 5px 0px;
+}

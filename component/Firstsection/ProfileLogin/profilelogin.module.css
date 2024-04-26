@@ -3,6 +3,7 @@
    margin:10px;
    width: 94%;
    position: absolute;
+   z-index: 50;
    background-color: #fff;
    top: 0;
    display: flex;
@@ -38,7 +39,7 @@ line-height: 2.2rem; /* 32px */
 font-weight: 600;
 color: #868e96;
 padding: 8px;
-width: fit-content;
+width: 100%;
 }
 .rule{
 border-style: none ;

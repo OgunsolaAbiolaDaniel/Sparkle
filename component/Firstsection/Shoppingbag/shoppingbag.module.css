@@ -1,7 +1,15 @@
 .sect{
-    display: flex;
-    flex-direction: column;
-    
+   height: 100vh;
+   margin:0px;
+   width: 100%;
+   position: absolute;
+   background-color: #fff;
+   top: 0;
+   display: flex;
+   flex-direction: column;
+   left: 0%;
+   z-index: 10;
+   justify-content: space-around;
 }
 .header{
     display: flex;
@@ -10,12 +18,70 @@
 .cancelbtn{
     background: none;
     border: none;
-    position: absolute;
-    top: 38px;
-    right: 32px;
+    position: relative;
+    bottom: 1px;
+    right: 3px;
 }
 .closebtnicon{
 font-size: 1.875rem; /* 30px */
 line-height: 2.25rem; /* 36px */
 color: #a1a1aa;
+}
+.shoppinglist{
+    padding: 30px 60px 30px 60px;
+    width: 100%;
+    display: flex;
+    gap: 25px;
+    height: 300px;
+   justify-self: start;
+    overflow-y: scroll;
+    flex-direction: column;
+    justify-content: start;
+    align-items: center;
+    box-shadow: inset 0 4px 4px 4px rgb(0 0 0 / 0.05);
+    align-self: self-start;
+}
+.lastsect{
+  padding: 10px 80px;
+  display: flex;
+  margin-top: 20px;
+  margin-bottom:10px ;
+  flex-direction: column;  
+  gap: 10px;
+  width: 100%;
+}
+.lastsect p {
+  font-size: 1rem; /* 16px */
+line-height: 1.5rem; /* 24px */
+font-weight: 700;
+}
+.vcbtn{
+  padding: 8px 25px;
+  background-color: #fff;
+  border-style: solid;
+  letter-spacing: 2px;
+  color: #000;
+  font-weight: 600;
+  border-width: 1px;
+}
+.vcbtn:hover{
+  background-color: #000;
+  border-style: none;
+  color: #fff;
+
+}
+.checkoutbtn{
+background-color: #000;
+ color: #fff;
+ font-weight: 600;
+ letter-spacing: 2px;
+  padding: 8px 25px;
+  border-style: none;
+}
+.checkoutbtn:hover{
+   background-color: #fff;
+  border-style: solid;
+  border-width: 1px;
+  color: #000;
+
 }

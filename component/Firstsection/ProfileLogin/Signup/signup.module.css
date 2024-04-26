@@ -42,7 +42,7 @@ line-height: 1rem; /* 16px */
 .check div{
    font-size: 0.875rem; /* 14px */
 line-height: 1.25rem; /* 20px */ 
-width: fit-content;
+width: 100%;
 color:#6b7280 ;
 font-weight: 500;
 }

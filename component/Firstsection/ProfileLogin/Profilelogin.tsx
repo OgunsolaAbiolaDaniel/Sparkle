@@ -9,7 +9,7 @@ import { FcGoogle } from "react-icons/fc";
 import { FaXTwitter } from "react-icons/fa6";
 import { useState } from 'react';
 
-function Profilelogin({onClose}) {
+function Profilelogin({ onClose }:any) {
   const [witch, setwitch] = useState(false);
   function changeloginstatustrue() {
     setwitch(false);
